@@ -1,0 +1,15 @@
+service : {
+  add: (nat, nat) -> (nat);
+  clear_counter: () -> (nat);
+  days_to_second: (nat) -> (nat);
+  divide: (nat, nat) -> (nat) query;
+  increment_counter: (nat) -> (nat);
+  is_even: (nat) -> (bool);
+  max_in_array: (vec nat) -> (nat);
+  modulo: (nat, nat) -> (nat) query;
+  show_counter: () -> (nat) query;
+  subtract: (nat, nat) -> (nat);
+  sum_of_array: (vec nat) -> (nat);
+  test: () -> (nat);
+  test_divide: (nat, nat) -> (bool);
+}

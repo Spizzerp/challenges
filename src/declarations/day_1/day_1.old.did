@@ -1,0 +1,10 @@
+service : {
+  add: (nat, nat) -> (nat);
+  clear_counter: () -> (nat);
+  days_to_second: (nat) -> (nat);
+  increment_counter: (nat) -> (nat);
+  show_counter: () -> (nat) query;
+  subtract: (nat, nat) -> (nat);
+  sum_of_array: (vec nat) -> (nat);
+  test: () -> (nat);
+}
